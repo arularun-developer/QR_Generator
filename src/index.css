@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Wallpoet&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.801);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+h1{
+    font-size:25px;
+    text-align: center;
+    color:black;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.container {
+    width: 350px;
+   background:#80808059;
+   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+    /* background: rgba(241, 237, 237, 0.527); */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    padding: 10px;
+    font-weight: 500;
+}
+
+input[type="url"],
+select {
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    border-radius: 1px solid rgba(128, 128, 128, 0.65);
+    padding: 5px 10px;
+    width: 100%
+}
+
+input[type="color"] {
+    display: block;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    border-radius: 1px solid rgba(128, 128, 128, 0.65);
+    width: 100%;
+}
+
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+img{
+    margin-left: 43px;
+}
